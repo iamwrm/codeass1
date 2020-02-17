@@ -1,15 +1,43 @@
 body {
     background-image: url("/images/background.jpeg");
+    background-position: center;
+}
+
+body>main>h1 {
+    text-transform: lowercase;
+    text-align: center;
 }
 
 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 125px;
     margin-bottom: 10px;
-    /*Your code here*/
+}
+
+#mystuff {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 div {
     padding: 25px;
     margin: 5px;
     /* YOUR CODE HERE */
+    text-align: center;
+    align-self: center;
+    width: 26%;
+}
+
+@media screen and (min-width: 800px) {
+    div:nth-child(odd) {
+        border: black solid;
+    }
+    div {
+        width: 20%;
+    }
 }

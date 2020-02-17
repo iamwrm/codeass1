@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/background.jpeg");
+    background-image: url("../images/background.jpeg");
     background-position: center;
 }
 
@@ -38,6 +38,6 @@ div {
         border: black solid;
     }
     div {
-        width: 20%;
+        width: 22%;
     }
 }
